@@ -61,7 +61,7 @@ handleClick: function() {
 		console.log("state status",this.state.Loginstatus);
 		return <MuiThemeProvider>
 			<div>
-			{this.state.Loginstatus?<div style={{position: "absolute",top: "50%",left: "20%"}}> HI {this.state.name},How are you :) ? </div> :<IconButton
+			{this.state.Loginstatus?<div style={{position: "absolute",top: "50%",left: "20%"}}> HI {this.state.name},How are you  <i className="material-icons" >sentiment_very_satisfied</i> </div> :<IconButton
 											    style={{position: "absolute",
 											    top: "50%",
 												right: "50%"}}

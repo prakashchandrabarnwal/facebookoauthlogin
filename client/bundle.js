@@ -135,7 +135,13 @@
 	          { style: { position: "absolute", top: "50%", left: "20%" } },
 	          " HI ",
 	          this.state.name,
-	          ",How are you :) ? "
+	          ",How are you  ",
+	          _react2.default.createElement(
+	            "i",
+	            { className: "material-icons" },
+	            "sentiment_very_satisfied"
+	          ),
+	          " "
 	        ) : _react2.default.createElement(
 	          _IconButton2.default,
 	          _defineProperty({
