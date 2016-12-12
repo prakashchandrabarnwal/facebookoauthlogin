@@ -2,11 +2,6 @@ body {
   font-family: 'Wendy One', sans-serif;
 }
 
-@media (max-width: 450px) {
-  body {
-    background: url('new2.jpg') repeat-x;
-  }
-}
 
 
 span {
