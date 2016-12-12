@@ -132,16 +132,76 @@
 	        null,
 	        this.state.Loginstatus ? _react2.default.createElement(
 	          "div",
-	          { style: { position: "absolute", top: "50%", left: "20%" } },
-	          " HI ",
-	          this.state.name,
-	          ",How are you  ",
+	          { "class": "container" },
 	          _react2.default.createElement(
-	            "i",
-	            { className: "material-icons" },
-	            "sentiment_very_satisfied"
+	            "div",
+	            { className: "balloon" },
+	            _react2.default.createElement(
+	              "div",
+	              null,
+	              _react2.default.createElement(
+	                "span",
+	                null,
+	                "\u263A"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              null,
+	              _react2.default.createElement(
+	                "span",
+	                null,
+	                "H"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              null,
+	              _react2.default.createElement(
+	                "span",
+	                null,
+	                "E"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              null,
+	              _react2.default.createElement(
+	                "span",
+	                null,
+	                "L"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              null,
+	              _react2.default.createElement(
+	                "span",
+	                null,
+	                "L"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              null,
+	              _react2.default.createElement(
+	                "span",
+	                null,
+	                "O"
+	              )
+	            )
 	          ),
-	          " "
+	          _react2.default.createElement(
+	            "h1",
+	            { style: { position: "absolute", top: "50%", left: "30%" } },
+	            " ",
+	            this.state.name,
+	            _react2.default.createElement(
+	              "i",
+	              { className: "material-icons" },
+	              "sentiment_very_satisfied"
+	            )
+	          )
 	        ) : _react2.default.createElement(
 	          _IconButton2.default,
 	          _defineProperty({
@@ -149,8 +209,7 @@
 	              top: "50%",
 	              right: "50%" },
 	            onClick: this.handleClick,
-	            tooltipPosition: "bottom-center",
-	            tooltip: "Login"
+	            tooltipPosition: "bottom-center"
 	          }, "onClick", this.handleClick),
 	          _react2.default.createElement(
 	            "i",
