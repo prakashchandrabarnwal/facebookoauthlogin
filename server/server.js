@@ -9,5 +9,5 @@ app.use(express.static(__dirname + './../client/'));
 
 
 http.listen( PORT, function(){
- console.log('listening on *:8082');
+ console.log('listening on *:8080');
 });
