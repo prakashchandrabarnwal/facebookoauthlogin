@@ -12,7 +12,6 @@ injectTapEventPlugin();
 
 
 function handleTouchTap() {
-  document.location.href="https://www.facebook.com/prakash.barnwal.37";
 }
 
 var Login=React.createClass({
@@ -75,7 +74,7 @@ handleClick: function() {
     iconElementLeft={<IconButton></IconButton>}
     iconElementRight={<FlatButton label="Save" />}
   />
-			{this.state.Loginstatus?
+			{!this.state.Loginstatus?
         <div class="container">
  <div className="balloon" style={{marginLeft:"10%"}}>
     
@@ -118,7 +117,7 @@ handleClick: function() {
 											   <i className="material-icons" >sentiment_very_satisfied</i>
 											</IconButton>}
 											
-											<div style={{position:"absolute",bottom:"0",right:"0",padding:"3px"}}><a href="https://www.facebook.com/prakash.barnwal.37" ><i className="fa fa-facebook-official" style={{fontSize:"20px",color:"blue"}}></i> Prakash Barnwal</a>
+											<div style={{position:"absolute",bottom:"0",right:"0",padding:"3px"}}><a href="https://www.facebook.com/bikky.barnwal" ><i className="fa fa-facebook-official" style={{fontSize:"20px",color:"blue"}}></i> Prakash Barnwal</a>
 											</div>
 			</div>
   </MuiThemeProvider>
